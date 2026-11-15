@@ -64,6 +64,7 @@ Answered against <branch> at <commit>. Changed since the last submitted build:
 | P15 | Labelled real-device video of this build | | |
 | P16 | Privacy policy and label match this version | | |
 | P17 | Screenshots show this build, nothing clipped | | |
+| P18 | Every app extension in PlugIns is described in the Notes or removed | | |
 
 ## Storefronts (S1)
 

@@ -65,6 +65,10 @@ rely on one.
 - [ ] **P17** Every screenshot shows this build as it is. Its headline says what that screen
   shows. No price word, no clipped label, nothing hidden under the tab bar (2.3.3, 2.3.7). Look at
   the whole set side by side, then at every image at full size (L18).
+- [ ] **P18** Every app extension in the build is one App Review can see. Open the archive, Show
+  Package Contents on the .app, open `PlugIns`, and list every `.appex` (widgets, Live Activities,
+  share and notification extensions, a template target Xcode added). Describe each in the Notes or
+  remove it: an extension the reviewer never saw can read as a hidden feature (2.5.19).
 
 ## Storefronts (S1)
 

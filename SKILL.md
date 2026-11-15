@@ -1,6 +1,6 @@
 ---
 name: app-store-review-gate
-description: Run a pre-submission review gate on an app before it goes to the App Store, first launch or update - the lessons, the review playbook (P1 to P17), the storefront check, Notes for Review in a fixed order and a labelled review video - and record every answer with evidence in the repo's docs/store/review-readiness.md. Use whenever an app or a new version is about to be submitted or uploaded to App Store Connect, when asked "is it ready for review", "pre-release checks", "run the review gate", "can we submit", to write or rewrite Notes for Review or the App Review video script, or after a rejection or a 2.1 Information Needed. Also use for Google Play submissions for the shared steps.
+description: Run a pre-submission review gate on an app before it goes to the App Store, first launch or update - the lessons, the review playbook (P1 to P18), the storefront check, Notes for Review in a fixed order and a labelled review video - and record every answer with evidence in the repo's docs/store/review-readiness.md. Use whenever an app or a new version is about to be submitted or uploaded to App Store Connect, when asked "is it ready for review", "pre-release checks", "run the review gate", "can we submit", to write or rewrite Notes for Review or the App Review video script, or after a rejection or a 2.1 Information Needed. Also use for Google Play submissions for the shared steps.
 user-invocable: true
 ---
 
@@ -13,7 +13,7 @@ with evidence. The date moves, never the gate.
 The rules live in the files beside this one. Read them fresh on every run; never work from memory
 of them:
 
-- `PLAYBOOK.md`: the checks P1 to P17, the storefront check S1, and what to do when Apple writes.
+- `PLAYBOOK.md`: the checks P1 to P18, the storefront check S1, and what to do when Apple writes.
 - `LESSONS.md`: lessons from real submissions.
 - `NOTES-FOR-REVIEW.md` and `REVIEW-VIDEO.md`: how the Notes and the video are made.
 - `templates/`: the readiness doc and the account's release log.
@@ -98,6 +98,7 @@ for you to judge.
 | P15 video | a real-device recording of this build with a label per section |
 | P16 privacy | each new feature: what it stores or sends, and the sentence in the live policy that names it |
 | P17 screenshots | each image against the build; the set seen side by side and at full size |
+| P18 extensions | every `.appex` in the archive's `PlugIns` folder, each described in the Notes or removed |
 | S1 storefronts | the live country list, read from the console by the developer or with their yes |
 
 ### 5. Notes for Review and the video

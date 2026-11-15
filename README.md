@@ -30,7 +30,7 @@ build number.
 
 | File | What it is |
 |---|---|
-| [PLAYBOOK.md](PLAYBOOK.md) | The checks, P1 to P17, the storefront check, and what to do when Apple writes back |
+| [PLAYBOOK.md](PLAYBOOK.md) | The checks, P1 to P18, the storefront check, and what to do when Apple writes back |
 | [LESSONS.md](LESSONS.md) | Each lesson and the real submission that taught it |
 | [NOTES-FOR-REVIEW.md](NOTES-FOR-REVIEW.md) | The order I write Notes for Review in, and why |
 | [REVIEW-VIDEO.md](REVIEW-VIDEO.md) | How I record the video for App Review, and what to check before pressing record |
